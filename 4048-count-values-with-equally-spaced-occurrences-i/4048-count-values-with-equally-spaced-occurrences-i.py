@@ -7,4 +7,5 @@ class Solution:
                     if(n[i] == n[j] == n[k])and(j-i == k-j):
                         if n.count(n[i]) == 3:
                             count += 1
+                            break
         return count
